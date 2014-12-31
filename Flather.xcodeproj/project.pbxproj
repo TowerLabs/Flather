@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F53C95311A542D9300C1267B /* Flather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F53C952F1A542D9300C1267B /* Flather.xcdatamodeld */; };
+		F53C95371A542DB200C1267B /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = F53C95361A542DB200C1267B /* CoreDataStack.m */; };
+		F5F314AB1A542B6700B314A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F314AA1A542B6700B314A9 /* main.m */; };
+		F5F314AE1A542B6700B314A9 /* TWLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F314AD1A542B6700B314A9 /* TWLAppDelegate.m */; };
+		F5F314B41A542B6700B314A9 /* TWLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F314B31A542B6700B314A9 /* TWLHomeViewController.m */; };
+		F5F314B71A542B6700B314A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F314B51A542B6700B314A9 /* Main.storyboard */; };
+		F5F314B91A542B6700B314A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F314B81A542B6700B314A9 /* Images.xcassets */; };
+		F5F314BC1A542B6700B314A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F314BA1A542B6700B314A9 /* LaunchScreen.xib */; };
+		F5F314C81A542B6700B314A9 /* FlatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F314C71A542B6700B314A9 /* FlatherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5F314C21A542B6700B314A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F3149D1A542B6700B314A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F314A41A542B6700B314A9;
+			remoteInfo = Flather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F53C95301A542D9300C1267B /* Flather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flather.xcdatamodel; sourceTree = "<group>"; };
+		F53C95351A542DB200C1267B /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		F53C95361A542DB200C1267B /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+		F5F314A51A542B6700B314A9 /* Flather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F314A91A542B6700B314A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F314AA1A542B6700B314A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../Classes/main.m; sourceTree = "<group>"; };
+		F5F314AC1A542B6700B314A9 /* TWLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWLAppDelegate.h; sourceTree = "<group>"; };
+		F5F314AD1A542B6700B314A9 /* TWLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWLAppDelegate.m; sourceTree = "<group>"; };
+		F5F314B21A542B6700B314A9 /* TWLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWLHomeViewController.h; sourceTree = "<group>"; };
+		F5F314B31A542B6700B314A9 /* TWLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWLHomeViewController.m; sourceTree = "<group>"; };
+		F5F314B61A542B6700B314A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5F314B81A542B6700B314A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5F314BB1A542B6700B314A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F5F314C11A542B6700B314A9 /* FlatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F314C61A542B6700B314A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F314C71A542B6700B314A9 /* FlatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlatherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5F314A21A542B6700B314A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F314BE1A542B6700B314A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F53C95321A542D9E00C1267B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F53C95341A542DB200C1267B /* CoreDataStack */,
+				F53C952F1A542D9300C1267B /* Flather.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		F53C95341A542DB200C1267B /* CoreDataStack */ = {
+			isa = PBXGroup;
+			children = (
+				F53C95351A542DB200C1267B /* CoreDataStack.h */,
+				F53C95361A542DB200C1267B /* CoreDataStack.m */,
+			);
+			name = CoreDataStack;
+			path = Classes/CoreData/CoreDataStack;
+			sourceTree = "<group>";
+		};
+		F5F3149C1A542B6700B314A9 = {
+			isa = PBXGroup;
+			children = (
+				F5F314A71A542B6700B314A9 /* Flather */,
+				F5F314C41A542B6700B314A9 /* FlatherTests */,
+				F5F314A61A542B6700B314A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5F314A61A542B6700B314A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F314A51A542B6700B314A9 /* Flather.app */,
+				F5F314C11A542B6700B314A9 /* FlatherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5F314A71A542B6700B314A9 /* Flather */ = {
+			isa = PBXGroup;
+			children = (
+				F53C95321A542D9E00C1267B /* CoreData */,
+				F5F314D21A542BFF00B314A9 /* Home */,
+				F5F314D11A542BEF00B314A9 /* AppDelegate */,
+				F5F314A81A542B6700B314A9 /* Supporting Files */,
+			);
+			path = Flather;
+			sourceTree = "<group>";
+		};
+		F5F314A81A542B6700B314A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5F314B51A542B6700B314A9 /* Main.storyboard */,
+				F5F314BA1A542B6700B314A9 /* LaunchScreen.xib */,
+				F5F314B81A542B6700B314A9 /* Images.xcassets */,
+				F5F314A91A542B6700B314A9 /* Info.plist */,
+				F5F314AA1A542B6700B314A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F5F314C41A542B6700B314A9 /* FlatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5F314C71A542B6700B314A9 /* FlatherTests.m */,
+				F5F314C51A542B6700B314A9 /* Supporting Files */,
+			);
+			path = FlatherTests;
+			sourceTree = "<group>";
+		};
+		F5F314C51A542B6700B314A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5F314C61A542B6700B314A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5F314D11A542BEF00B314A9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F5F314AC1A542B6700B314A9 /* TWLAppDelegate.h */,
+				F5F314AD1A542B6700B314A9 /* TWLAppDelegate.m */,
+			);
+			name = AppDelegate;
+			path = Classes/AppDelegate;
+			sourceTree = "<group>";
+		};
+		F5F314D21A542BFF00B314A9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F5F314B21A542B6700B314A9 /* TWLHomeViewController.h */,
+				F5F314B31A542B6700B314A9 /* TWLHomeViewController.m */,
+			);
+			name = Home;
+			path = Classes/View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5F314A41A542B6700B314A9 /* Flather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F314CB1A542B6700B314A9 /* Build configuration list for PBXNativeTarget "Flather" */;
+			buildPhases = (
+				F5F314A11A542B6700B314A9 /* Sources */,
+				F5F314A21A542B6700B314A9 /* Frameworks */,
+				F5F314A31A542B6700B314A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flather;
+			productName = Flather;
+			productReference = F5F314A51A542B6700B314A9 /* Flather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5F314C01A542B6700B314A9 /* FlatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F314CE1A542B6700B314A9 /* Build configuration list for PBXNativeTarget "FlatherTests" */;
+			buildPhases = (
+				F5F314BD1A542B6700B314A9 /* Sources */,
+				F5F314BE1A542B6700B314A9 /* Frameworks */,
+				F5F314BF1A542B6700B314A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5F314C31A542B6700B314A9 /* PBXTargetDependency */,
+			);
+			name = FlatherTests;
+			productName = FlatherTests;
+			productReference = F5F314C11A542B6700B314A9 /* FlatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5F3149D1A542B6700B314A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tower Labs.";
+				TargetAttributes = {
+					F5F314A41A542B6700B314A9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F5F314C01A542B6700B314A9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F5F314A41A542B6700B314A9;
+					};
+				};
+			};
+			buildConfigurationList = F5F314A01A542B6700B314A9 /* Build configuration list for PBXProject "Flather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5F3149C1A542B6700B314A9;
+			productRefGroup = F5F314A61A542B6700B314A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5F314A41A542B6700B314A9 /* Flather */,
+				F5F314C01A542B6700B314A9 /* FlatherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5F314A31A542B6700B314A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F314B71A542B6700B314A9 /* Main.storyboard in Resources */,
+				F5F314BC1A542B6700B314A9 /* LaunchScreen.xib in Resources */,
+				F5F314B91A542B6700B314A9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F314BF1A542B6700B314A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5F314A11A542B6700B314A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53C95371A542DB200C1267B /* CoreDataStack.m in Sources */,
+				F5F314AE1A542B6700B314A9 /* TWLAppDelegate.m in Sources */,
+				F5F314B41A542B6700B314A9 /* TWLHomeViewController.m in Sources */,
+				F53C95311A542D9300C1267B /* Flather.xcdatamodeld in Sources */,
+				F5F314AB1A542B6700B314A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F314BD1A542B6700B314A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F314C81A542B6700B314A9 /* FlatherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5F314C31A542B6700B314A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F314A41A542B6700B314A9 /* Flather */;
+			targetProxy = F5F314C21A542B6700B314A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5F314B51A542B6700B314A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F314B61A542B6700B314A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5F314BA1A542B6700B314A9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F314BB1A542B6700B314A9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5F314C91A542B6700B314A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5F314CA1A542B6700B314A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5F314CC1A542B6700B314A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Flather/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5F314CD1A542B6700B314A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Flather/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5F314CF1A542B6700B314A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flather.app/Flather";
+			};
+			name = Debug;
+		};
+		F5F314D01A542B6700B314A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flather.app/Flather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5F314A01A542B6700B314A9 /* Build configuration list for PBXProject "Flather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F314C91A542B6700B314A9 /* Debug */,
+				F5F314CA1A542B6700B314A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F314CB1A542B6700B314A9 /* Build configuration list for PBXNativeTarget "Flather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F314CC1A542B6700B314A9 /* Debug */,
+				F5F314CD1A542B6700B314A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F314CE1A542B6700B314A9 /* Build configuration list for PBXNativeTarget "FlatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F314CF1A542B6700B314A9 /* Debug */,
+				F5F314D01A542B6700B314A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F53C952F1A542D9300C1267B /* Flather.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F53C95301A542D9300C1267B /* Flather.xcdatamodel */,
+			);
+			currentVersion = F53C95301A542D9300C1267B /* Flather.xcdatamodel */;
+			name = Flather.xcdatamodeld;
+			path = Classes/CoreData/Model/Flather.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5F3149D1A542B6700B314A9 /* Project object */;
+}
