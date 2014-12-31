@@ -1,8 +1,8 @@
 /*
  CoreDataStack.m
- 5Artists
+ Flather
  
- Created by Said on 01/12/2014.
+ Created by Said on 31/12/2014.
  Copyright (c) 2014 Tower Labs. All rights reserved.
  
  This program is free software; you can redistribute it and/or
